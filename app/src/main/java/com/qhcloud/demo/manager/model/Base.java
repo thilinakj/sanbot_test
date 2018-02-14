@@ -1,0 +1,1 @@
+package com.qhcloud.demo.manager.model;import com.qhcloud.net.NetApi;public abstract class Base {    protected NetApi mNetApi;    public Base() {        mNetApi = NetApi.getInstance();    }}
